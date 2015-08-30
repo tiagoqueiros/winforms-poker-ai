@@ -1,0 +1,79 @@
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\bin\Debug\Poker.exe.config
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\bin\Debug\Poker.exe
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\bin\Debug\Poker.pdb
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.exe
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\Tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.MainForm.resources
+C:\Users\Tiago\documents\visual studio 2013\Projects\Poker\Poker\bin\Debug\HandEvaluator.dll
+C:\Users\Hugo\Dropbox\cenas\Poker\Poker\bin\Debug\Poker.exe.config
+C:\Users\Hugo\Dropbox\cenas\Poker\Poker\obj\Debug\Poker.exe
+C:\Users\Hugo\Dropbox\cenas\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\Hugo\Desktop\Poker\Poker\bin\Debug\Poker.exe.config
+C:\Users\Hugo\Desktop\Poker\Poker\bin\Debug\Poker.exe
+C:\Users\Hugo\Desktop\Poker\Poker\bin\Debug\Poker.pdb
+C:\Users\Hugo\Desktop\Poker\Poker\bin\Debug\HandEvaluator.dll
+C:\Users\Hugo\Desktop\Poker\Poker\obj\Debug\Poker.GameForm.resources
+C:\Users\Hugo\Desktop\Poker\Poker\obj\Debug\Poker.MainForm.resources
+C:\Users\Hugo\Desktop\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
+C:\Users\Hugo\Desktop\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache
+C:\Users\Hugo\Desktop\Poker\Poker\obj\Debug\Poker.exe
+C:\Users\Hugo\Desktop\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\Hugo\Desktop\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\bin\Debug\Poker.exe.config
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.exe
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\bin\Debug\Poker.exe
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\bin\Debug\Poker.pdb
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\bin\Debug\HandEvaluator.dll
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.GameForm.resources
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.MainForm.resources
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
+C:\Users\Hugo\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\bin\Debug\Poker.exe.config
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.exe
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\bin\Debug\Poker.exe
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\bin\Debug\Poker.pdb
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\bin\Debug\HandEvaluator.dll
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.GameForm.resources
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.MainForm.resources
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Hugo\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\bin\Debug\Poker.exe.config
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\obj\Debug\Poker.exe
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\bin\Debug\Poker.exe
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\bin\Debug\Poker.pdb
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\bin\Debug\HandEvaluator.dll
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\obj\Debug\Poker.GameForm.resources
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\obj\Debug\Poker.MainForm.resources
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
+C:\Users\Hugo Dias Laptop\Desktop\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\bin\Debug\Poker.exe.config
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\bin\Debug\Poker.exe
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\bin\Debug\Poker.pdb
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\bin\Debug\HandEvaluator.dll
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.GameForm.resources
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.MainForm.resources
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.exe
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\Tiago\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\bin\Debug\Poker.exe.config
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.exe
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\bin\Debug\Poker.exe
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\bin\Debug\Poker.pdb
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\bin\Debug\HandEvaluator.dll
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.GameForm.resources
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.MainForm.resources
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
+C:\Users\Leniker\Dropbox\INDES - Myva Poker\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache

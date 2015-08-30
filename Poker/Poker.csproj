@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB003746-D07A-4660-8C6C-7C87F663A614}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Poker</RootNamespace>
+    <AssemblyName>Poker</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HandEvaluator">
+      <HintPath>.\HandEvaluator.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Card.cs" />
+    <Compile Include="Deck.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HiPerfTimer.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="images\2c.gif" />
+    <None Include="images\2d.gif" />
+    <None Include="images\2h.gif" />
+    <None Include="images\2s.gif" />
+    <None Include="images\3c.gif" />
+    <None Include="images\3d.gif" />
+    <None Include="images\3h.gif" />
+    <None Include="images\3s.gif" />
+    <None Include="images\4c.gif" />
+    <None Include="images\4d.gif" />
+    <None Include="images\4h.gif" />
+    <None Include="images\4s.gif" />
+    <None Include="images\5c.gif" />
+    <None Include="images\5d.gif" />
+    <None Include="images\5h.gif" />
+    <None Include="images\5s.gif" />
+    <None Include="images\6c.gif" />
+    <None Include="images\6d.gif" />
+    <None Include="images\6h.gif" />
+    <None Include="images\6s.gif" />
+    <None Include="images\7c.gif" />
+    <None Include="images\7d.gif" />
+    <None Include="images\7h.gif" />
+    <None Include="images\7s.gif" />
+    <None Include="images\8c.gif" />
+    <None Include="images\8d.gif" />
+    <None Include="images\8h.gif" />
+    <None Include="images\8s.gif" />
+    <None Include="images\9c.gif" />
+    <None Include="images\9d.gif" />
+    <None Include="images\9h.gif" />
+    <None Include="images\9s.gif" />
+    <None Include="images\ac.gif" />
+    <None Include="images\ad.gif" />
+    <None Include="images\ah.gif" />
+    <None Include="images\as.gif" />
+    <None Include="images\cb.gif" />
+    <None Include="images\jc.gif" />
+    <None Include="images\jd.gif" />
+    <None Include="images\jh.gif" />
+    <None Include="images\js.gif" />
+    <None Include="images\kc.gif" />
+    <None Include="images\kd.gif" />
+    <None Include="images\kh.gif" />
+    <None Include="images\ks.gif" />
+    <None Include="images\qc.gif" />
+    <None Include="images\qd.gif" />
+    <None Include="images\qh.gif" />
+    <None Include="images\qs.gif" />
+    <None Include="images\tc.gif" />
+    <None Include="images\td.gif" />
+    <None Include="images\th.gif" />
+    <None Include="images\ts.gif" />
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\tables\table3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\floors\floor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chips\orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\tables\table31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\2c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\2d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\2h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\2s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\3c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\3h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\3s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\4c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\4d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\4h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\4s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\5c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\5d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\5h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\5s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\6c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\6d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\6h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\6s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\7c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\7d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\7h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\7s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\8c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\8d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\8h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\8s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\9c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\9d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\9h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\9s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\ac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\ad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\ah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\as.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\cb.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\cb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\chip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\jc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\jd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\jh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\js.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\kc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\kd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\kh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\ks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\qc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\qd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\qh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\qs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\tc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\td.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\th.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cards\ts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chips\black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chips\blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chips\dealer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chips\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chips\purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chips\red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\main_back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\call.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dealCards.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lose.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raise.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\win.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winChips.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\floors\floor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\floors\floor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\floors\floor4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\tables\table1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\tables\table2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\tables\table4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\all in.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

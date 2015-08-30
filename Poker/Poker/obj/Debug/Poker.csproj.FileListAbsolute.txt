@@ -1,0 +1,10 @@
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\bin\Debug\Poker.exe.config
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\bin\Debug\Poker.exe
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\bin\Debug\Poker.pdb
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.exe
+c:\users\tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\Tiago\documents\visual studio 2013\Projects\Poker\Poker\obj\Debug\Poker.MainForm.resources
+C:\Users\Tiago\documents\visual studio 2013\Projects\Poker\Poker\bin\Debug\HandEvaluator.dll
